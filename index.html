@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPAM</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <a href="#" class="logo">LOGO!</a>
+          <button class="button sign-in-btn">sign in</button>
+          <ul class="nav main-nav">
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#services">services</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#about">about</a>
+            </li>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#contact-us">contact us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.header-inner -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.header -->
+    <main class="main-content">
+      <section class="section intro" id="services">
+        <div class="container-narrow intro-inner">
+            <h1 class="intro-title section-title">Our Mission</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500.
+            </p>
+        </div>
+        <!-- /.container-narrow -->
+      </section>
+      <!-- /.section intro -->
+      <section class="section" id="about">
+        <div class="container-narrow">
+          <h2 class="section-title section-title-colored">About</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown.
+          </p>
+        </div>
+        <!-- /.container-narrow -->
+      </section>
+      <!-- /.section -->
+      <section class="section section-colored" id="work-with-us">
+        <div class="container-narrow">
+          <h2 class="section-title section-title-margin-large">Team</h2>
+          <ul class="teammates">
+            <li class="teammate">
+              <img
+                class="teammate-photo"
+                srcset="images/avatar-1.png 1x, images/avatar-1_x2.png 2x"
+                src="images/avatar-1.png"
+                alt="John Doe"
+              />
+              <h3 class="teammate-name">John Doe</h3>
+              <p class="teammate-position">Founder & CEO</p>
+            </li>
+            <!-- /.teammate -->
+            <li class="teammate">
+              <img
+                class="teammate-photo"
+                srcset="images/avatar-2.png 1x, images/avatar-2_x2.png 2x"
+                src="images/avatar-2.png"
+                alt="John Doe"
+              />
+              <h3 class="teammate-name">John Doe</h3>
+              <p class="teammate-position">Co-Founder</p>
+            </li>
+            <!-- /.teammate -->
+            <li class="teammate">
+              <img
+                class="teammate-photo"
+                srcset="images/avatar-3.png 1x, images/avatar-3_x2.png 2x"
+                src="images/avatar-3.png"
+                alt="John Doe"
+              />
+              <h3 class="teammate-name">John Doe</h3>
+              <p class="teammate-position">Investor</p>
+            </li>
+            <!-- /.teammate -->
+          </ul>
+          <!-- /.teammates -->
+          <button class="button work-button">work with us</button>
+        </div>
+        <!-- /.container-narrow -->
+      </section>
+      <!-- /.section section-colored -->
+      <section class="section section-darkened" id="contact-us">
+        <div class="container-narrow">
+          <h2 class="section-title section-title-colored">Newsletter</h2>
+          <p class="subscribe-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown.
+          </p>
+          <form class="subscribe-form" action="#" method="POST">
+            <input
+              type="email"
+              class="email-input"
+              name="subscription-email"
+              placeholder="Enter Email"
+            />
+            <button type="submit" class="submit-btn">
+              <svg class="btn-icon">
+                <use xlink:href="#envelope"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+        <!-- /.container-narrow -->
+      </section>
+      <!-- /.section.section-darkened -->
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <ul class="nav footer-nav">
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#about">about</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#faq">faq</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#work-with-us">work with us</a>
+            </li>
+          </ul>
+          <ul class="nav social">
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="#mail"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <svg class="social-icon">
+                  <use xlink:href="#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.footer-top -->
+        <div class="footer-bottom">
+          <p class="footer-bottom-item">
+            <a class="footer-bottom-link" href="#">Privacy Policy</a>
+          </p>
+          <p class="footer-bottom-item">
+            <a class="footer-bottom-link" href="#">Terms and Conditions</a>
+          </p>
+          <p class="footer-bottom-item">&copy; Company.LLC 2014</p>
+        </div>
+        <!-- /.footer-bottom -->
+      </div>
+    </footer>
+    <svg class="visually-hidden">
+      <defs>
+        <symbol id="envelope" viewBox="0 0 15 12">
+          <path
+            d="M14.707 4.4707C14.7656 4.41211 14.8242 4.40234 14.8828 4.44141C14.9609 4.48047 15 4.53906 15 4.61719V10.5938C15 10.9844 14.8633 11.3164 14.5898 11.5898C14.3164 11.8633 13.9844 12 13.5938 12H1.40625C1.01562 12 0.683594 11.8633 0.410156 11.5898C0.136719 11.3164 0 10.9844 0 10.5938V4.61719C0 4.53906 0.0292969 4.49023 0.0878906 4.4707C0.166016 4.43164 0.234375 4.43164 0.292969 4.4707C0.9375 4.95898 2.44141 6.0625 4.80469 7.78125C4.84375 7.82031 4.9707 7.92773 5.18555 8.10352C5.41992 8.2793 5.60547 8.41602 5.74219 8.51367C5.87891 8.5918 6.05469 8.69922 6.26953 8.83594C6.48438 8.95312 6.68945 9.04102 6.88477 9.09961C7.09961 9.1582 7.30469 9.1875 7.5 9.1875C7.67578 9.1875 7.85156 9.16797 8.02734 9.12891C8.20312 9.07031 8.36914 9.01172 8.52539 8.95312C8.68164 8.875 8.84766 8.77734 9.02344 8.66016C9.19922 8.54297 9.3457 8.44531 9.46289 8.36719C9.58008 8.26953 9.7168 8.16211 9.87305 8.04492C10.0293 7.92773 10.1367 7.83984 10.1953 7.78125C12.5 6.12109 14.0039 5.01758 14.707 4.4707ZM7.5 8.25C7.34375 8.25 7.14844 8.20117 6.91406 8.10352C6.69922 7.98633 6.52344 7.88867 6.38672 7.81055C6.25 7.71289 6.04492 7.56641 5.77148 7.37109C5.51758 7.15625 5.38086 7.04883 5.36133 7.04883C2.97852 5.31055 1.2793 4.05078 0.263672 3.26953C0.0878906 3.13281 0 2.94727 0 2.71289V2.15625C0 1.76563 0.136719 1.43359 0.410156 1.16016C0.683594 0.886719 1.01562 0.75 1.40625 0.75H13.5938C13.9844 0.75 14.3164 0.886719 14.5898 1.16016C14.8633 1.43359 15 1.76563 15 2.15625V2.71289C15 2.94727 14.9121 3.13281 14.7363 3.26953C13.7793 4.01172 12.0801 5.27148 9.63867 7.04883C9.61914 7.04883 9.47266 7.15625 9.19922 7.37109C8.94531 7.56641 8.75 7.71289 8.61328 7.81055C8.47656 7.88867 8.29102 7.98633 8.05664 8.10352C7.8418 8.20117 7.65625 8.25 7.5 8.25Z"
+          />
+        </symbol>
+        <symbol id="facebook" viewBox="0 0 8 14">
+          <path
+            d="M6.53945 2.32458H8V0.0985833C7.74802 0.06825 6.88143 0 5.87218 0C3.76635 0 2.32381 1.15908 2.32381 3.28942V5.25H0V7.7385H2.32381V14H5.1729V7.73908H7.40272L7.75669 5.25058H5.17224V3.53617C5.1729 2.81692 5.39422 2.32458 6.53945 2.32458Z"
+          />
+        </symbol>
+        <symbol id="mail" viewBox="0 0 16 12">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M1.40278 0H14.597C14.8136 0 15.0165 0.0525089 15.2 0.139018L9.57566 5.67869L9.57551 5.67881L9.57535 5.67903L7.96862 7.2L0.8 0.138894C0.983437 0.0524473 1.1862 0 1.40278 0ZM10.4 5.99995L15.8549 0.8C15.9453 0.980168 16 1.17935 16 1.39202V10.6078C16 10.8206 15.9451 11.0198 15.8547 11.2L10.4 5.99995ZM0.145326 0.8C0.0548757 0.980228 0 1.17944 0 1.39223V10.6079C0 10.8206 0.0548113 11.0198 0.145197 11.2L5.6 6.00008L0.145326 0.8ZM8.30045 7.99165L9.90739 6.40006L15.2 11.8547C15.0166 11.9451 14.8138 12 14.5972 12H1.403C1.18635 12 0.983469 11.9451 0.8 11.8545L6.09289 6.4L7.6373 7.99165C7.72888 8.08607 7.84891 8.13327 7.96887 8.13327C8.08884 8.13327 8.20884 8.08607 8.30045 7.99165Z"
+          />
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 16 16">
+          <path
+            d="M16 3.42062C15.405 3.66154 14.771 3.82123 14.11 3.89877C14.79 3.524 15.309 2.93508 15.553 2.22523C14.919 2.57415 14.219 2.82062 13.473 2.95815C12.871 2.36646 12.013 2 11.077 2C9.261 2 7.799 3.36062 7.799 5.02862C7.799 5.26862 7.821 5.49938 7.875 5.71908C5.148 5.59631 2.735 4.38985 1.114 2.552C0.831 3.00523 0.665 3.524 0.665 4.08246C0.665 5.13108 1.25 6.06062 2.122 6.59877C1.595 6.58954 1.078 6.44831 0.64 6.22585C0.64 6.23508 0.64 6.24708 0.64 6.25908C0.64 7.73046 1.777 8.95262 3.268 9.23415C3.001 9.30154 2.71 9.33385 2.408 9.33385C2.198 9.33385 1.986 9.32277 1.787 9.28215C2.212 10.4812 3.418 11.3628 4.852 11.3914C3.736 12.1972 2.319 12.6828 0.785 12.6828C0.516 12.6828 0.258 12.6717 0 12.6412C1.453 13.5062 3.175 14 5.032 14C11.068 14 14.368 9.38462 14.368 5.384C14.368 5.25015 14.363 5.12092 14.356 4.99262C15.007 4.56615 15.554 4.03354 16 3.42062Z"
+          />
+        </symbol>
+      </defs>
+    </svg>
+  </body>
+</html>
